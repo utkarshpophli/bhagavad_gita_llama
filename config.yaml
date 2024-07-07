@@ -1,0 +1,30 @@
+model:
+  name: "NousResearch/Llama-2-7b-chat-hf"
+  new_model: "Llama-2-7b-chat-finetune"
+
+dataset:
+  name: "utkarshpophli/bhagwat_gita"
+
+lora:
+  r: 64
+  alpha: 16
+  dropout: 0.1
+
+training:
+  output_dir: "./results"
+  num_train_epochs: 1
+  per_device_train_batch_size: 4
+  gradient_accumulation_steps: 1
+  learning_rate: 2e-4
+  weight_decay: 0.001
+  max_grad_norm: 0.3
+  warmup_ratio: 0.03
+
+quantization:
+  use_4bit: true
+  bnb_4bit_compute_dtype: "float16"
+  bnb_4bit_quant_type: "nf4"
+  use_nested_quant: false
+
+generation:
+  max_length: 200

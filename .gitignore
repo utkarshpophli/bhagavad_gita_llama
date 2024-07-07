@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Model checkpoints and data
+*.pth
+*.pt
+*.bin
+*.h5
+data/
+
+# Logs
+logs/
+*.log
+
+# Streamlit
+.streamlit/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# PyCharm
+.idea/
+
+# TensorBoard
+runs/
