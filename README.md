@@ -6,6 +6,8 @@ Welcome to Gita Guru, where ancient wisdom meets cutting-edge AI! 🚀
 
 Gita Guru is not just another chatbot. It's your personal spiritual companion, powered by the wisdom of the Bhagavad Gita and the intelligence of LLaMA-2. We've fine-tuned one of the most advanced language models to become an expert in the teachings of this ancient Indian scripture.
 
+Try out the live demo here to experience the power of Gita!
+
 ## ✨ Features
 
 - 🧠 Fine-tuned LLaMA-2-7b-chat model, now a Gita genius!
