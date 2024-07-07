@@ -1,6 +1,6 @@
 model:
   name: "NousResearch/Llama-2-7b-chat-hf"
-  new_model: "Llama-2-7b-chat-finetune"
+  new_model: "Llama-2-7b-gita-finetune"
 
 dataset:
   name: "utkarshpophli/bhagwat_gita"
